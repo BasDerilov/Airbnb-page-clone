@@ -1,0 +1,146 @@
+header {
+  nav {
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+
+    * {
+      align-self: center;
+      display: inline;
+    }
+
+    a {
+      border: #ffff;
+
+      height: min-content;
+      align-self: center;
+      color: black;
+      text-decoration: none;
+    }
+
+    .push-right {
+      flex: 1 0 134px;
+    }
+
+    div.search {
+      border-radius: 100px;
+      padding: 0px;
+      margin-left: 24px;
+      margin-right: 24px;
+      max-height: 48px;
+      min-width: 300px;
+      justify-content: space-between;
+
+      div {
+        background-color: #ff385c;
+        border-radius: 100px;
+        height: 32px;
+        width: 32px;
+        margin: 7px;
+        margin-left: 0px;
+        align-content: center;
+        text-align: center;
+        vertical-align: baseline;
+        padding: 6px;
+        i {
+          padding: 0;
+          color: #ffff;
+          font-size: small;
+        }
+      }
+
+      input {
+        border: none;
+        outline: none;
+        width: 85%;
+        background-color: transparent;
+        height: 50px;
+        padding-left: 24px;
+        text-decoration-style: solid;
+      }
+    }
+
+    #user {
+      height: 42px;
+      width: 77px;
+      * {
+        margin: 4px;
+        margin-top: 0px;
+      }
+    }
+
+    div.button {
+      border-radius: 100px;
+      padding: 12px;
+    }
+
+    .grow {
+      flex: 1;
+      justify-content: center;
+    }
+
+    .button i {
+      margin-left: 5px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .highlight {
+      padding: 10px;
+    }
+
+    .highlight:hover {
+      background-color: rgba(189, 189, 189, 0.1);
+    }
+
+    .search i {
+      /* width: min-content;
+              height: min-content; */
+      border-radius: 100px;
+      align-self: center;
+      padding-right: 10px;
+      cursor: pointer;
+    }
+
+    .raise {
+      border: 1px solid #e6e6e6;
+      box-shadow: 0px 1px 3px 0px #e4e4e4;
+    }
+
+    #host {
+      font-size: small;
+      font-weight: 600;
+    }
+
+    .raise:hover {
+      transition: box-shadow 0.5s;
+      box-shadow: 0px 4px 5px 0px #e4e4e4;
+    }
+
+    #logo svg {
+      color: #ff385c;
+      cursor: pointer;
+    }
+
+    #logo {
+      width: 386px;
+    }
+  }
+
+  border-bottom: rgba(170, 170, 170, 0.2) solid 1px;
+  width: 100%;
+  background-color: #ffff;
+
+  .flex {
+    display: flex;
+  }
+
+  @media screen and (max-width: 1127px) {
+    nav {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}

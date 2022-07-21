@@ -1,0 +1,18 @@
+@use "header";
+@use "media-panel";
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fit-to-res {
+  max-width: 1280px;
+  margin: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}

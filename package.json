@@ -1,0 +1,14 @@
+{
+  "name": "airbnb-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server & sass sass/style.scss style.css",
+    "build": "sass sass/style.scss style.css",
+    "sass": "sass --watch style.scss style.css",
+    "dev": "live-server & sass --watch sass/style.scss style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
