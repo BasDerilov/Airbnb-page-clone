@@ -1,0 +1,109 @@
+#calendar {
+  padding: 48px 0;
+
+  .calendar-page {
+    max-width: 313px;
+    max-height: 357px;
+    padding: 0 13px;
+    text-align: center;
+    width: 100%;
+
+    .month {
+      font-weight: 550;
+    }
+  }
+
+  .calendar-nav {
+    .button {
+      width: 32px;
+      height: 32px;
+      border-radius: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: rgba(189, 189, 189, 0.24);
+    }
+
+    #move-left {
+      float: left;
+    }
+
+    #move-right {
+      float: right;
+    }
+  }
+
+  #page-container {
+    display: flex;
+    margin-top: 22px;
+  }
+
+  h3 {
+    margin: 0 0 0 0;
+  }
+
+  p {
+    font-size: 14px;
+    color: #717171;
+    padding: 8px 0px 0px;
+    margin: 0;
+  }
+
+  table {
+    width: 100%;
+
+    th {
+      color: #717171;
+      font-size: small;
+      font-weight: 550;
+      max-width: 42px;
+    }
+
+    td {
+      width: 42px;
+      height: 42px;
+      cursor: pointer;
+    }
+
+    div {
+      width: 42px;
+      height: 42px;
+      cursor: pointer;
+
+      text-align: center;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    div:hover {
+      border: 1px black solid;
+    }
+
+    .selected {
+      background-color: black;
+      color: white;
+    }
+
+    .check-in-date {
+      background-color: rgb(247, 247, 247);
+      border-top-left-radius: 100%;
+      border-bottom-left-radius: 100%;
+    }
+
+    .between-selection {
+      border-radius: 0%;
+      background-color: rgb(247, 247, 247);
+    }
+
+    .between-selection:hover {
+      border: none;
+    }
+  }
+}
