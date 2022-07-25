@@ -1,6 +1,18 @@
 #details {
   display: flex;
 
+  @keyframes press {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.92);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
   > div > div {
     border-bottom: rgba(170, 170, 170, 0.397) solid 1px;
     max-width: 653.33px;
@@ -142,8 +154,44 @@
   }
 
   #amenities-all {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    > div {
+      display: flex;
+      flex-wrap: wrap;
+      width: calc(100% + 16px);
+    }
+
     .amenity {
       display: flex;
+      padding-bottom: 16px;
+      max-width: 334.65px;
+      width: 100%;
+
+      i {
+        padding-right: 16px;
+      }
+    }
+
+    button {
+      border: 1px solid black;
+      border-radius: 8px;
+      text-align: center;
+      background-color: #ffffff;
+      padding: 13px 23px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 24px;
+    }
+
+    button:hover {
+      background-color: #f7f7f7;
+    }
+
+    button:active {
+      animation: press 0.2s 1 linear;
     }
   }
 }
