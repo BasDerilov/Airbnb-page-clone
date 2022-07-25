@@ -1,9 +1,9 @@
-@use "header";
-@use "media-panel";
+@use "components";
 
 body {
   margin: 0px;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 200px;
 }
 
 * {

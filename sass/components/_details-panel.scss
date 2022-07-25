@@ -1,0 +1,149 @@
+#details {
+  display: flex;
+
+  > div > div {
+    border-bottom: rgba(170, 170, 170, 0.397) solid 1px;
+    max-width: 653.33px;
+  }
+
+  #info-panel {
+    padding-top: 48px;
+    padding-bottom: 24px;
+    max-height: 128px;
+    display: flex;
+
+    div {
+      width: 581.33px;
+    }
+
+    p {
+      margin-top: 5px;
+      margin-bottom: 0px;
+      display: inline;
+    }
+
+    img {
+      height: 56px;
+      width: 56px;
+      margin-left: 16px;
+      display: inline;
+    }
+
+    li {
+      display: inline;
+    }
+
+    h3 {
+      margin: 0px;
+      margin-bottom: 7px;
+      font-size: 22px;
+      font-weight: 550;
+    }
+  }
+
+  #amenities {
+    padding-top: 32px;
+    padding-bottom: 10px;
+
+    .amen-container {
+      display: flex;
+      margin-bottom: 24px;
+
+      p {
+        margin: 0px;
+        color: rgb(113, 113, 113);
+        font-size: 14px;
+      }
+
+      h4 {
+        margin: 0px;
+        margin-bottom: 4px;
+        font-weight: 500;
+      }
+
+      i {
+        align-self: center;
+      }
+
+      div {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  #air-cover {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    h4 {
+      margin: 0px;
+    }
+
+    img {
+      height: 26px;
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin: 0px;
+      margin-bottom: 16px;
+    }
+
+    button {
+      border: none;
+      background: none;
+      text-decoration: underline;
+      font-size: 16px;
+      padding: 0px;
+      cursor: pointer;
+    }
+  }
+
+  #description {
+    padding-top: 32px;
+    padding-bottom: 48px;
+  }
+
+  #sleep-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    h3 {
+      margin: 0px;
+      padding-bottom: 24px;
+    }
+
+    > div {
+      display: flex;
+
+      > div {
+        padding: 24px;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 12px;
+        font-size: 16px;
+        letter-spacing: -1px;
+
+        svg {
+          margin-bottom: 16px;
+        }
+
+        h4 {
+          margin: 0px;
+          margin-bottom: 8px;
+          width: 157.11px;
+          font-weight: 500;
+        }
+
+        span {
+          margin: 0px;
+        }
+      }
+    }
+  }
+
+  #amenities-all {
+    .amenity {
+      display: flex;
+    }
+  }
+}
