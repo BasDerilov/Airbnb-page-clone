@@ -13,9 +13,14 @@
     }
   }
 
-  > div > div {
+  .half-border {
     border-bottom: rgba(170, 170, 170, 0.397) solid 1px;
     max-width: 653.33px;
+  }
+
+  .full-border {
+    border-bottom: rgba(170, 170, 170, 0.397) solid 1px;
+    border-top: rgba(170, 170, 170, 0.397) solid 1px;
   }
 
   #info-panel {

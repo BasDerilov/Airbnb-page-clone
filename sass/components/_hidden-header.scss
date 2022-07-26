@@ -1,0 +1,29 @@
+#hidden-header {
+  position: fixed;
+  max-height: 80px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 0px;
+  width: 100%;
+  background-color: white;
+  top: 0px;
+  height: 100%;
+
+  > div {
+    display: flex;
+
+    .shortcut {
+      font-size: 14px;
+      max-height: 80px;
+      font-weight: 550;
+      padding: 29.5px 0px;
+      margin-right: 24px;
+      height: 100%;
+      border-bottom: 5px solid rgba(0, 0, 0, 0);
+      cursor: pointer;
+      transition: border-bottom ease 0.2s;
+    }
+
+    .shortcut:hover {
+      border-bottom-color: black;
+    }
+  }
+}
