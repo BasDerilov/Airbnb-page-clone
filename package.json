@@ -1,8 +1,12 @@
 {
   "name": "airbnb-page",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BasDerilov/Airbnb-page-clone.git"
+  },
   "description": "",
-  "main": "script.js",
+  "main": "index.html",
   "scripts": {
     "start": "live-server & sass sass/style.scss style.css",
     "build": "sass sass/style.scss style.css",
