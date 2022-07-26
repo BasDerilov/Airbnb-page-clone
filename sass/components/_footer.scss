@@ -1,0 +1,28 @@
+footer {
+  position: relative;
+  background-color: rgb(247, 247, 247);
+  border-top: 1px solid rgb(221, 221, 221);
+  padding-left: 80px;
+  padding-right: 80px;
+
+  > div {
+    display: flex;
+    padding: 48px 0;
+  }
+
+  > nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid rgb(221, 221, 221);
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0 0 16px;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+  }
+}

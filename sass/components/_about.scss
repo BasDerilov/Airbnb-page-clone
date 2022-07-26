@@ -2,6 +2,17 @@
   border-top: rgba(170, 170, 170, 0.397) solid 1px;
 }
 
+a {
+  text-decoration: none;
+  text-decoration: underline;
+  font-weight: 550;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 #about {
   > div {
     padding: 48px 0;
@@ -32,17 +43,6 @@
           padding: 0 16px 0 0;
           text-align: center;
         }
-
-        a {
-          text-decoration: none;
-          text-decoration: underline;
-          font-weight: 550;
-        }
-
-        a:visited {
-          text-decoration: none;
-          color: black;
-        }
       }
       .push-left {
         margin-left: 8.33333%;
@@ -53,6 +53,157 @@
   #map {
     > div {
       margin: 0 0 24px;
+    }
+  }
+
+  #host {
+    #dorothy-wrapper {
+      display: flex;
+      max-height: 64px;
+      margin: 0 0 24px;
+
+      img {
+        height: 64px;
+        margin-right: 16px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+
+      span {
+        padding: 8px 0 0;
+        color: #717171;
+        display: block;
+      }
+    }
+
+    .align-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 16px;
+    }
+
+    #dorothy-details-wrapper {
+      justify-content: flex-start;
+
+      > div {
+        max-width: 50%;
+      }
+      #left {
+        padding: 0 8px;
+
+        > .wrapper {
+          margin: 0 -12px 12px;
+
+          > div {
+            margin: 0 0 12px;
+            padding: 0 12px;
+
+            i {
+              min-width: 20px;
+            }
+
+            span {
+              margin: 0 0 0 8px;
+            }
+          }
+        }
+      }
+      #right {
+        margin-left: 8.33333%;
+
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+
+        li {
+          margin: 0 0 16px;
+        }
+
+        button {
+          border: 1px solid black;
+          border-radius: 8px;
+          text-align: center;
+          background-color: #ffffff;
+          padding: 13px 23px;
+          font-size: 16px;
+          font-weight: 500;
+          cursor: pointer;
+          margin: 32px 0 0;
+        }
+
+        button:hover {
+          background-color: #f7f7f7;
+        }
+
+        button:active {
+          animation: press 0.2s 1 linear;
+        }
+
+        span {
+          font-size: 12px;
+        }
+
+        .wrapper {
+          max-width: 300px;
+          margin-top: 24px;
+        }
+      }
+    }
+  }
+
+  .wrapper {
+    display: flex;
+  }
+
+  #things {
+    h3 {
+      margin: 0;
+      padding: 0 0 24px;
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0;
+      margin-bottom: 12px;
+    }
+
+    i {
+      margin: 0 12px 0 0;
+    }
+
+    .main {
+      > div {
+        width: 33.3333%;
+      }
+    }
+
+    .wrapper {
+      margin: 0 0 8px;
+    }
+
+    .content {
+      padding: 0 8px;
+    }
+
+    span {
+      display: block;
+    }
+
+    a {
+      margin: 24px 0 0;
+    }
+
+    .down {
+      align-items: flex-end;
+
+      i {
+        margin-left: 4px;
+      }
     }
   }
 }
