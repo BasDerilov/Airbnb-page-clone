@@ -1,0 +1,58 @@
+.full-border {
+  border-top: rgba(170, 170, 170, 0.397) solid 1px;
+}
+
+#about {
+  > div {
+    padding: 48px 0;
+  }
+
+  #reviews {
+    h3 {
+      padding: 0 0 24px;
+      margin: 0;
+      font-weight: 550;
+      font-size: 22px;
+    }
+
+    > div {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      max-width: 1136px;
+      width: calc(100% + 16px);
+
+      > div {
+        display: flex;
+        width: 33.3333%;
+        margin-right: 8.33333%;
+        i {
+          font-size: larger;
+          padding: 0 16px 0 0;
+          text-align: center;
+        }
+
+        a {
+          text-decoration: none;
+          text-decoration: underline;
+          font-weight: 550;
+        }
+
+        a:visited {
+          text-decoration: none;
+          color: black;
+        }
+      }
+      .push-left {
+        margin-left: 8.33333%;
+      }
+    }
+  }
+
+  #map {
+    > div {
+      margin: 0 0 24px;
+    }
+  }
+}
