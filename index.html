@@ -493,7 +493,7 @@
         </div>
       </div>
       <div id="sticky-div-container">
-        <div>
+        <div id="sticker">
           <div id="reserve-window">
             <div id="price">
               <span class="bolder">2,008 лв.</span><span>night</span>
@@ -514,9 +514,16 @@
             </div>
             <button id="reserve">Reserve</button>
             <span>You won't be charged yet</span>
-            <div><span>2,008 лв. x 9 nights</span><span>18,072 лв.</span></div>
-            <div><button>Service fee</button> <span>2,062 лв.</span></div>
-            <div><span>Total</span> <span>21,134 лв.</span></div>
+            <div class="price-calc">
+              <span>2,008 лв. x 9 nights</span><span>18,072 лв.</span>
+            </div>
+            <div class="service-fee">
+              <button>Service fee</button> <span>3,062 лв.</span>
+            </div>
+            <div id="total">
+              <span>Total</span>
+              <span>21,134 лв.</span>
+            </div>
           </div>
           <button>
             <i class="fa-solid fa-flag"></i><span>Report this listing</span>
@@ -524,6 +531,8 @@
         </div>
       </div>
     </div>
+    <div id="about"></div>
   </body>
   <script src="/scripts/hidden-header.js"></script>
+  <script src="/scripts/reserve-button.js"></script>
 </html>
